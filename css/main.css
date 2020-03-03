@@ -1,0 +1,172 @@
+/* ------ Спецификация ------ */
+
+body {
+	font-family: Nunito Sans, sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	margin: 0;
+	padding: 0;
+
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.4em;
+    margin-bottom: 1em;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Yeseva One, sans-serif;
+	font-weight: 400;
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	line-height: 1.3;
+}
+
+h1 {
+	font-size: 40px;
+	line-height: 53px;
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+}
+
+a, button, input {
+	transition: all 0.5s ease;
+}
+
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active
+
+ {
+	outline: none;
+}
+
+.btn {
+	background: #E3B873;
+	font-size: 11px;
+	font-style: italic;
+	color: #fff;
+	box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+	border-radius: 2px;
+	border: #E3B873;
+	padding: 13px 33px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+/* ------ Первый экран ------ */
+
+.header {
+
+}
+
+.top-panel {
+	background: #131313;
+	padding: 24px 0 22px;
+}
+
+.nav {
+	font-size: 11px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	color: #E3B873;
+	text-transform: uppercase;
+}
+
+.header-navigation {
+	display: flex;
+}
+
+.header-navigation__item{
+	padding-right: 47px;
+}
+
+.header-navigation__link {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+.header-navigation__link:hover {
+	color: #E3B873;
+}
+
+.header__tel {
+	color: #E3B873;
+}
+
+.bottom-panel {
+	background: #000 url(../img/room.jpg) no-repeat center center / cover;
+	padding: 194px 0 208px;
+	position: relative;
+}
+
+.bottom-panel__overlay {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .7);
+}
+
+.zindex {
+	color: #fff;
+	position: relative;
+	z-index: 1;
+}
+.bottom-panel__wrap {
+	color: #fff;
+}
+
+.bottom-panel__title {
+	width: 600px;
+}
+
+.bottom-panel__title span{
+	color: #E3B873;
+}
+
+.bottom-panel__text {
+	font-size: 22px;
+	line-height: 36px;
+	margin: 32px 0 41px 0;
+}
+
+.bottem-panel__butten {
+	padding: 20px 42px;
+	margin-right: 20px;
+}
+
+.bottem-panel__butten2 {
+	padding: 20px 23px;
+	background: transparent;
+	border: 1px solid #fff;
+}
+
+
+
+
