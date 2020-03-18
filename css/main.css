@@ -792,11 +792,11 @@ button, button:hover, button:focus, button:active
 	position: absolute;
 	top: -243px;
 	left: 282px;
-	padding: 35px 181px;
 }
 
 .kont-form {
 	background: #000;
+	padding: 35px 181px;
 }
 
 .kont-form__title {
