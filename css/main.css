@@ -789,9 +789,11 @@ button, button:hover, button:focus, button:active
 }
 
 .kont-form-wrapper {
-	position: absolute;
+	margin: -300px auto 0;
+
+	/*position: absolute;
 	top: -243px;
-	left: 282px;
+	left: 282px;*/
 }
 
 .kont-form {
