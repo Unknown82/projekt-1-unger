@@ -788,12 +788,15 @@ button, button:hover, button:focus, button:active
 
 }
 
-.kont-form {
-	background: #000;
+.kont-form-wrapper {
 	position: absolute;
 	top: -243px;
 	left: 282px;
 	padding: 35px 181px;
+}
+
+.kont-form {
+	background: #000;
 }
 
 .kont-form__title {
@@ -892,8 +895,9 @@ button, button:hover, button:focus, button:active
 	display: none;
 }
 
+/* ------ Media Queries ------ */
 
-/* max 768px */
+
 @media screen and (max-width: 768px){
 
 	.header-navigation {
