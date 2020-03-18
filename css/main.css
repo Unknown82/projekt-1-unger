@@ -783,22 +783,22 @@ button, button:hover, button:focus, button:active
 
 .kont {
 	background: #000 url(../img/kontakt.svg) no-repeat;
-	height: 953px;
 	position: relative;
 
 }
 
 .kont-form-wrapper {
-	margin: -300px auto 0;
-
-	/*position: absolute;
+	width: 882px;
+	position: absolute;
 	top: -243px;
-	left: 282px;*/
+	left: 50%;
+	margin-left: -441px;
 }
 
 .kont-form {
 	background: #000;
 	padding: 35px 181px;
+	margin: 0 auto;
 }
 
 .kont-form__title {
