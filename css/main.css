@@ -413,7 +413,7 @@ button, button:hover, button:focus, button:active
 
 .repair-wrap {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .repair-type__wrap {
@@ -899,6 +899,32 @@ button, button:hover, button:focus, button:active
 
 /* ------ Media Queries ------ */
 
+
+
+@media screen and (max-width: 1200px) {
+	.header__tel {
+		display: none;
+	}
+
+	.control-menu__item {
+		margin-right: 0;
+		margin-left: 60px;
+	}
+
+	.control-slayer__img {
+		width: 50%;
+	}
+
+	.control-slayer {
+		width: 60%;
+	}
+
+	.repair-wrap {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+}
 
 @media screen and (max-width: 768px){
 
