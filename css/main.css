@@ -6,7 +6,6 @@ body {
 	font-size: 14px;
 	margin: 0;
 	padding: 0;
-
 }
 
 .container {
@@ -385,12 +384,25 @@ button, button:hover, button:focus, button:active
 }
 
 .video-form__checkbox {
-	
-}
-
-.video-form__checkbox::checked {
-	background-color: #e3b873;
-}
+	display:none;
+  }
+.video-form__checkbox + label::before {
+	width: 18px;
+	height: 18px;
+	border-radius: 1px;
+	border: 2px solid #E3B873;
+	background-color: #fff;
+	display: block;
+	content: "";
+	float: left;
+	margin-right: 10px;
+  }
+.video-form__checkbox:checked + label::before {
+	background-color: #E3B873;
+	background-image: url("../img/hacken.svg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+  }
 
 .video-form__text {
 	color: #363636;
@@ -556,9 +568,31 @@ button, button:hover, button:focus, button:active
 	line-height: 23px;
 }
 
-.flet-form__daten {
+.flet-form__check {
 	margin: 16px 0 39px;
-	color: #fff;
+}
+
+#flet-form__daten {
+	display:none;
+}
+
+#flet-form__daten + label::before {
+	width: 18px;
+	height: 18px;
+	border-radius: 1px;
+	border: 2px solid #E3B873;
+	background-color: #fff;
+	display: block;
+	content: "";
+	float: left;
+	margin-right: 10px;
+}
+
+#flet-form__daten:checked + label::before {
+	background-color: #E3B873;
+	background-image: url("../img/hacken.svg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 }
 
 .flet-form__daten-span {
@@ -612,10 +646,6 @@ button, button:hover, button:focus, button:active
 	color: #E3B873;
 	margin-top: 138px;
 	margin-bottom: 47px;
-}
-
-.fantasies-item {
-
 }
 
 .fantasies-link {
@@ -811,7 +841,6 @@ button, button:hover, button:focus, button:active
 
 .kontakt-form__flex {
 	display: flex;
-
 }
 
 .kontakt-form__wrap-margin {
@@ -838,9 +867,31 @@ button, button:hover, button:focus, button:active
 	padding-right: 70px;
 }
 
-.kontakt-form__daten {
+.kontakt-form__check {
 	margin: 47px auto 50px;
-	color: #fff;
+}
+
+#kontakt-form__daten {
+	display:none;
+}
+
+#kontakt-form__daten + label::before {
+	width: 18px;
+	height: 18px;
+	border-radius: 1px;
+	border: 2px solid #E3B873;
+	background-color: #fff;
+	display: block;
+	content: "";
+	float: left;
+	margin-right: 10px;
+}
+
+#kontakt-form__daten:checked + label::before {
+	background-color: #E3B873;
+	background-image: url("../img/hacken.svg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 }
 
 .kontakt-form__daten-span {
@@ -897,8 +948,8 @@ button, button:hover, button:focus, button:active
 	display: none;
 }
 
-/* ------ Media Queries ------ */
 
+/* ------ Media Queries ------ */
 
 
 @media screen and (max-width: 1200px) {
@@ -924,12 +975,24 @@ button, button:hover, button:focus, button:active
 		justify-content: space-between;
 		flex-wrap: wrap;
 	}
+	
+	.fantasies-wrap__margin {
+		margin: 0;
+	}
+
+	.flet-info__list {
+		margin-left: 10px;
+	}
 }
 
 @media screen and (max-width: 768px){
 
 	.header-navigation {
 		display: none;
+	}
+
+	.header__tel {
+		display: block;
 	}
 
 	.header__btn {
@@ -1137,9 +1200,31 @@ button, button:hover, button:focus, button:active
 		padding-right: 70px;
 	}
 
-	.mobile-form__daten {
+	.mobile-form__check {
 		margin: 47px auto 50px;
-		color: #fff;
+	}
+
+	#mobile-form__daten {
+		display:none;
+	}
+	
+	#mobile-form__daten + label::before {
+		width: 18px;
+		height: 18px;
+		border-radius: 1px;
+		border: 2px solid #E3B873;
+		background-color: #fff;
+		display: block;
+		content: "";
+		float: left;
+		margin-right: 10px;
+	}
+	
+	#mobile-form__daten:checked + label::before {
+		background-color: #E3B873;
+		background-image: url("../img/hacken.svg");
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
 	}
 
 	.mobile-form__daten-span {

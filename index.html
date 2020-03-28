@@ -179,8 +179,8 @@
 				</button>
 			</div>
 			 <div class="video-form__check">
-				 <input type="checkbox" id="some-input" class="video-form__checkbox">
-				 <label class="video-form__text" for="some-input3">I agree to the processing of personal data</label>
+				 <input type="checkbox" id="video-form__checkbox" class="video-form__checkbox">
+				 <label class="video-form__text" for="video-form__checkbox">I agree to the processing of personal data</label>
 			 </div>
 		</form>
 	</div>
@@ -350,8 +350,10 @@
 							<label class="flet-form__text" for="flet-some-input2">Email</label>
 							<input type="email" class="flet-form__input" id="flet-some-input2" name="name" placeholder="Your email:">
 						</div>
-						<input type="checkbox" class="flet-form__daten" name="name" value="datenschutz">
-							<span class="flet-form__daten-span">I agree to the processing of personal data</span>
+						<div class="flet-form__check">
+							<input type="checkbox" class="flet-form__daten" id="flet-form__daten" name="name" value="datenschutz">
+							<label class="flet-form__daten-span" for="flet-form__daten">I agree to the processing of personal data</label>
+						</div>
 						<button type="submit" class="flet-form__submit btn">
 							Call the measurer
 						</button>
@@ -553,8 +555,10 @@
 						<label class="kontakt-form__text" for="kont-some-input2">Question</label>
 						<input type="text" class="kontakt-form__input" id="kont-some-input2" name="name" placeholder="I want to know">
 					</div>
-					<input type="checkbox" class="kontakt-form__daten" id="checkbox" name="name" value="datenschutz">
-					<label class="kontakt-form__daten-span" for="checkbox">I agree to the processing of personal data</label>
+					<div class="kontakt-form__check">
+						<input type="checkbox" class="kontakt-form__daten" id="kontakt-form__daten" name="name" value="datenschutz">
+						<label class="kontakt-form__daten-span" for="kontakt-form__daten">I agree to the processing of personal data</label>
+					</div>
 					<button type="submit" class="kontakt-form__submit btn">
 						Submit
 					</button>
@@ -643,8 +647,10 @@
 					<span class="mobile-form__text">Question</span>
 					<input type="text" class="mobile-form__input" name="name" placeholder="I want to know">
 				</div>
-				<input type="checkbox" class="mobile-form__daten" name="name" value="datenschutz">
-				<span class="mobile-form__daten-span">I agree to the processing of personal data</span>
+				<div class="mobile-form__check">
+					<input type="checkbox" class="mobile-form__daten" id="mobile-form__daten" name="name" value="datenschutz">
+					<label class="mobile-form__daten-span" for="mobile-form__daten">I agree to the processing of personal data</label>
+				</div>
 				<button type="submit" class="mobile-form__submit btn">
 					Submit
 				</button>
