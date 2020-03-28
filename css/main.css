@@ -93,10 +93,6 @@ button, button:hover, button:focus, button:active
 /* ------ 1 экран ------ */
 
 
-.header {
-
-}
-
 .top-panel {
 	background: #131313;
 	padding: 24px 0 22px;
@@ -173,9 +169,6 @@ button, button:hover, button:focus, button:active
 	color: #fff;
 }
 
-.bottom-panel__title {
-
-}
 
 .bottom-panel__title span{
 	color: #E3B873;
@@ -246,10 +239,6 @@ button, button:hover, button:focus, button:active
 	margin-top: 37px;
 }
 
-.control-info {
-
-}
-
 .control-info__menu {
 	display: flex;
 }
@@ -308,10 +297,6 @@ button, button:hover, button:focus, button:active
 
 .video {
 	margin-top: -320px;
-}
-
-.video-kamera {
-
 }
 
 .video__title {
@@ -540,10 +525,6 @@ button, button:hover, button:focus, button:active
 	margin: 0;
 }
 
-.flet-form__form {
-
-}
-
 .flet-form__text {
 	display: block;
 	font-size: 13px;
@@ -690,10 +671,6 @@ button, button:hover, button:focus, button:active
 /* ------ 7 экран ------ */
 
 
-.client {
-
-}
-
 .client__title {
 	color: #181818;
 	text-align: center;
@@ -835,10 +812,6 @@ button, button:hover, button:focus, button:active
 	color: #fff;
 }
 
-.kontakt-form {
-
-}
-
 .kontakt-form__flex {
 	display: flex;
 }
@@ -931,10 +904,6 @@ button, button:hover, button:focus, button:active
 
 /* ------ footer ------ */
 
-
-.footer {
-
-}
 
 .footer-top-panel {
 	padding: 48px 0;
@@ -1174,10 +1143,6 @@ button, button:hover, button:focus, button:active
 	.mobil-form__title {
 		color: #fff;
 		padding-top: 180px;
-	}
-
-	.mobile-form {
-
 	}
 
 	.mobile-form__text {
