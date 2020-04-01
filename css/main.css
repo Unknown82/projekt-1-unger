@@ -301,7 +301,6 @@ button, button:hover, button:focus, button:active
 
 .video__title {
 	color: #fff;
-
 }
 
 .video__icon {
@@ -342,6 +341,7 @@ button, button:hover, button:focus, button:active
 .video-form__item {
 	margin-right: 80px
 }
+
 .video-form__title {
 	display: block;
 	font-size: 13px;
@@ -371,6 +371,7 @@ button, button:hover, button:focus, button:active
 .video-form__checkbox {
 	display:none;
   }
+
 .video-form__checkbox + label::before {
 	width: 18px;
 	height: 18px;
@@ -405,7 +406,6 @@ button, button:hover, button:focus, button:active
 
 .repair__title {
 	text-align: center;
-
 }
 
 .repair-wrap {
@@ -664,7 +664,6 @@ button, button:hover, button:focus, button:active
 
 .fantasies-pic__4 {
 	display: block;
-
 }
 
 
@@ -790,8 +789,9 @@ button, button:hover, button:focus, button:active
 
 .kont {
 	background: #000 url(../img/kontakt.svg) no-repeat;
+	background-size: 100% 100%;
+	padding-bottom: 60px;
 	position: relative;
-
 }
 
 .kont-form-wrapper {
@@ -883,13 +883,11 @@ button, button:hover, button:focus, button:active
 .kontakt-info__title {
 	color: #E3B873;
 	padding-top: 290px;
-	
 }
 
 .kontakt-info__icon {
 	margin-top: 20px;
     text-align: center;
-
 }
 
 .kontakt-info__icon-margin {
@@ -981,6 +979,10 @@ button, button:hover, button:focus, button:active
 		font-size: 14px;
         line-height: 135%;
         margin: 16px 0 50px;
+	}
+
+	.bottem-panel__butten {
+		margin: 0;
 	}
 
 	.btn {
@@ -1116,33 +1118,34 @@ button, button:hover, button:focus, button:active
 	.mobile {
 		display: block;
 		background: #000;
-		position: relative;
 		padding-bottom: 50px;
+		position: relative;
 	}
 
 	.mobile-title {
 		font-size: 22px;
 		line-height: 138%;
         text-align: center;
-        color: #E3B873;
-        position: absolute;
-        top: -250px;
+		color: #E3B873;
+		margin-bottom: 40px;
 	}
 
-	.mobile-pic {
-		width: 100%;
+	.mobile-wrap {
 		position: absolute;
-		top: -150px;
+		top: -220px;
+	}
+	.mobile-pic {
+		display: block;
+		padding: 0;
+		margin: 0 auto;
 	}
 
 	.mobil-form {
-		background: #000;
-		padding: 0;
+		padding-top: 200px;
 	}
 
 	.mobil-form__title {
 		color: #fff;
-		padding-top: 180px;
 	}
 
 	.mobile-form__text {
