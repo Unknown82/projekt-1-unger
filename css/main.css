@@ -1069,6 +1069,10 @@ button, button:hover, button:focus, button:active
 		background: transparent;
 	}
 
+	.video-form__check {
+		justify-content: start;
+	}
+
 	.video-form__buttom {
 		position: absolute;
 		top: 315px;
@@ -1087,7 +1091,7 @@ button, button:hover, button:focus, button:active
 	}
 	
 	.repair-type img {
-		width: 100%;
+		min-width: 400px;
 	}
 
 	.repair-type__wrap {
@@ -1119,6 +1123,7 @@ button, button:hover, button:focus, button:active
 		display: block;
 		background: #000;
 		padding-bottom: 50px;
+		margin: 0 auto;
 		position: relative;
 	}
 
@@ -1133,6 +1138,8 @@ button, button:hover, button:focus, button:active
 	.mobile-wrap {
 		position: absolute;
 		top: -220px;
+		left: 50%;
+		margin-left: -200px;
 	}
 	.mobile-pic {
 		display: block;
