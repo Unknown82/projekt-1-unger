@@ -1091,7 +1091,7 @@ button, button:hover, button:focus, button:active
 	}
 	
 	.repair-type img {
-		min-width: 400px;
+		max-width: 400px;
 	}
 
 	.repair-type__wrap {
