@@ -413,6 +413,10 @@ button, button:hover, button:focus, button:active
 	justify-content: space-around;
 }
 
+.repair-type img {
+	max-width: 400px;
+}
+
 .repair-type__wrap {
 	width: 330px;
 	height: 300px;
@@ -1091,7 +1095,7 @@ button, button:hover, button:focus, button:active
 	}
 	
 	.repair-type img {
-		max-width: 400px;
+		width: 100%;
 	}
 
 	.repair-type__wrap {
