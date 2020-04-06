@@ -1091,6 +1091,7 @@ button, button:hover, button:focus, button:active
 	}
 	
 	.repair-type {
+		max-width: 100%;
 		margin-bottom: 30px;
 	}
 	
