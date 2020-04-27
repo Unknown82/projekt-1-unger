@@ -206,19 +206,21 @@ button, button:hover, button:focus, button:active
 	margin: 0 11px 55px;
 }
 
-.control-menu__item {
-	margin-right: 60px;
-}
-
 .control-menu__link{
 	color: rgba(255, 255, 255, 0.3);
 	font-size: 14px;
 	line-height: 19px;
 	text-transform: uppercase;
 	padding-bottom: 6px;
+	margin-right: 60px;
 }
 
 .control-menu__link:hover {
+	color: #E3B873;
+	border-bottom: 2px solid #E3B873;
+}
+
+.control-menu__link-active {
 	color: #E3B873;
 	border-bottom: 2px solid #E3B873;
 }
@@ -279,8 +281,13 @@ button, button:hover, button:focus, button:active
 	margin: 0 9px;
 }
 
-.control-slayer__radius--white {
+.control-slayer__radius-white {
 	background: #fff;
+	display: block;
+	width: 9px;
+	height: 9px;
+	border-radius: 50px;
+	margin: 0 9px;
 }
 
 .control-pfeil__left {
