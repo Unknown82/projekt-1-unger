@@ -11,7 +11,10 @@ window.addEventListener('DOMContentLoaded', function() {
         dotsWrap = document.querySelector('.control-slayer'),
         dots = document.querySelectorAll('.control-slayer__radius'),
         menuWrap = document.querySelector('.control-menu'),
-        menu = document.querySelectorAll('.control-menu__link');
+        menu = document.querySelectorAll('.control-menu__link'),
+        stadt = document.querySelectorAll('.control-info__text1'),
+        masse = document.querySelectorAll('.control-info__text2'),
+        zeit = document.querySelectorAll('.control-info__text3');
 
     showSlides(slideIndex);
 
@@ -25,16 +28,23 @@ window.addEventListener('DOMContentLoaded', function() {
         }
 
         slides.forEach((item) => item.style.display = 'none');
-        // for (let i = 0; i < slides.length; i++) {
-        //     slides[i].style.display = 'none';
-        // }
+
         dots.forEach((item) => item.classList.remove('control-slayer__radius-white'));
 
         menu.forEach((item) => item.classList.remove('control-menu__link-active'));
 
+        stadt.forEach((item) => item.style.display = 'none');
+
+        masse.forEach((item) => item.style.display = 'none');
+
+        zeit.forEach((item) => item.style.display = 'none');
+
         slides[slideIndex - 1].style.display = 'block';
         dots[slideIndex - 1].classList.add('control-slayer__radius-white');
         menu[slideIndex - 1].classList.add('control-menu__link-active');
+        stadt[slideIndex - 1].style.display = 'block';
+        masse[slideIndex - 1].style.display = 'block';
+        zeit[slideIndex - 1].style.display = 'block';
     }
 
     function plusSlides(n) {
